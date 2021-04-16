@@ -1,0 +1,13 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: bootcamp-hackathon-configserver
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/hackgrupo2/hkt-repoconfig.git
+          default-label: main
+          timeout: 10
