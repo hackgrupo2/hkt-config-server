@@ -2,7 +2,7 @@ server:
   port: 8888
 spring:
   application:
-    name: bootcamp-hackathon-configserver
+    name: configserver
 
   cloud:
     config:
